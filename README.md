@@ -123,6 +123,10 @@ Now that we have completed the setup, planning, and design phases, we have laid 
 
 This phase will focus on implementing the backlog, streamlined into three iterations with one task assigned to each iteration, ordered by priority. Each iteration task is documented as a GitHub issue with clear descriptions and relevant screenshots to ensure simplicity, clarity, and alignment throughout the process.
 
+List of tickets created are shown below
+
+[List of development tickets](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/69c5e588fea92852c0fa93eabe25eafedda3facc/Development%20-%20Tickets.PNG)
+
 **Iteration 1**
 
 [Iteration1 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/b15b7e7af4851d7c5e66dc7e0fb359698cb6c67d/Iteration1%20Ticket.png)
