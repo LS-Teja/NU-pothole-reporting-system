@@ -138,3 +138,7 @@ List of tickets created are shown below
 **Iteration 3**
 
 [Iteration3 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/57f6f4af238aef1fe50b873a29edb42eb9904f66/Iteration3%20Ticket.png)
+
+I cloned the GitHub repository to Visual Studio Code using SSH to securely access and work on the project files. This allowed me to easily sync my local changes with the remote repository. Below are the commands issued to clone the GitHub repository.
+
+![clone](git_clone.png)
