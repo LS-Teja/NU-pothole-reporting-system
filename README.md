@@ -135,22 +135,46 @@ I cloned the GitHub repository to Visual Studio Code using SSH to securely acces
 
 [Iteration1 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/cc3f653636043fb60e544a3dcabe523ac2f30762/Iteration1%20Ticket.png)
 
-After cloning, I focused on implementing Ticket 1 task by creating basic HTML and CSS files. The HTML file includes a simple form with fields for location, description, and an optional photo upload. The CSS file defines styles for the form layout, including input fields, buttons, and responsive design adjustments for smaller screens. This phase lays the foundation for the user interface, without any form submission or validation functionality.
+After cloning, I focused on implementing Ticket 1 task by creating basic HTML and CSS files. The HTML file includes a simple form with fields for location, description, and an optional photo upload. The CSS file defines styles for the form layout, including input fields, buttons, and responsive design adjustments for smaller screens. This iteration lays the foundation for the user interface, without any form submission or validation functionality.
 
 I committed changes to remote repository after testing it in local using the below commands.
 
 [Commands to git push](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/76b74e1f88f462c9f5d72329180664a855bd2acc/git_push.PNG)
 
+With this, I have developed a Minimum Viable Product (MVP) featuring the foundational structure of the web user interface. The live application has been successfully deployed on GitHub using the repository's Settings → Pages feature, with the deployment configured on the main branch. This serves as a basic, functional layout to serve as a starting point for further enhancements and feature integration.
+
+Live App deployment is shown [here](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/27f70c73a5bb94718b1d12c1b00ff68aeacaa893/live_URL.PNG)
+
+You can access Live App [here](https://ls-teja.github.io/NU-pothole-reporting-system/src/home.html)
+
 **Iteration 2**
 
 [Iteration2 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/57f6f4af238aef1fe50b873a29edb42eb9904f66/Iteration2%20Ticket.png)
+
+In iteration 2, I implemented HTML form validation by adding the required attribute to necessary fields, ensuring users cannot submit the form without providing essential information. This enhances the user experience by enforcing input validation before submission. Git Push followed to merge changes to remote.
 
 **Iteration 3**
 
 [Iteration3 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/57f6f4af238aef1fe50b873a29edb42eb9904f66/Iteration3%20Ticket.png)
 
+In iteration 3, I implemented JavaScript to handle the form submission process. When the user clicks the "Submit Report" button, the form prevents its default behavior, displays a success message ("Your report has been submitted successfully!"), and clears the form fields. The success message is set to disappear automatically after 5 seconds, providing clear confirmation of submission. This behavior ensures a smooth and user-friendly experience. Git Push was done to merge changes from local to remote.
 
+**Enhancement Ticket involving Test Driven development**
 
+[Enhancement Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/c068fbcc5070433ef497141a3d214215f74b747c/TDD_enhancement.PNG)
 
+I implemented Test-Driven Development (TDD) using Jest to ensure the successful submission of a report. In the app.test.js file, I wrote tests to simulate the form submission process, checking if the success message ("Your report has been submitted successfully!") appears when both required fields (location and description) are filled. By doing this, I verified that the application responds correctly to valid user inputs and that the message is displayed as intended, improving reliability and preventing future issues in the user flow.
 
+`app.test.js` is [here](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/c068fbcc5070433ef497141a3d214215f74b747c/TDD_using_Jest.PNG)
 
+To successfully execute the app.test.js file, I installed Jest as the testing framework, along with necessary dependencies like jsdom for running the tests and set up the necessary testing environment, ensuring that Jest could simulate DOM interactions and validate the functionality of the success message.
+
+Why TDD as an enhancement at a Later Stage?
+
+While TDD is typically adopted early in the project, implementing it at a later stage allows us to ensure that we thoroughly understand the application’s requirements first. By adding tests after the initial functionality is in place, we can identify critical areas that require testing and apply more focused test coverage. This phased approach also helps in improving code quality, maintaining stable progress, and preventing future bugs, especially as new features and updates are added.
+
+**Bug Ticket**
+
+[Bug Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/27f70c73a5bb94718b1d12c1b00ff68aeacaa893/Bug_ticket.PNG)
+
+This issue requires a thorough investigation into file handling and storage mechanisms, including assessing compatibility with various file types and sizes, so it has been parked for now.
