@@ -1,7 +1,7 @@
 # Pothole Reporting System
 
 ## Project Introduction 
-*(Ticket/ Issue: Maintain Notes (README.md) for Pothole Reporting System Proposal #1)* [Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/b15b7e7af4851d7c5e66dc7e0fb359698cb6c67d/Project%20Proposal%20Ticket.png)
+*(Ticket/ Issue: Maintain Notes (README.md) for Pothole Reporting System Proposal #1)* [Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/57f6f4af238aef1fe50b873a29edb42eb9904f66/Project%20Proposal%20Ticket.png)
 
 ### Overview
 The Pothole Reporting System is a web-based application designed to address one of the most common infrastructure issues faced by urban and rural areas: potholes. This system empowers citizens to report potholes with precise location data and images, ensuring timely responses by relevant authorities. Built using HTML, CSS, and JavaScript, the application emphasizes user-friendliness, accessibility, and data-driven decision-making for efficient road maintenance.
@@ -115,7 +115,7 @@ Now that we have completed the setup, planning, and design phases, we have laid 
 [Project Repository creation](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/b15b7e7af4851d7c5e66dc7e0fb359698cb6c67d/Project%20Repository%20creation.png)
 
 **GitHub Project Board Creation:** A project board has been established to effectively organize, prioritize, and track tasks throughout the project's lifecycle.
-[Project Board setup](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/b15b7e7af4851d7c5e66dc7e0fb359698cb6c67d/Project%20Board%20Setup.png)
+[Project Board setup](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/57f6f4af238aef1fe50b873a29edb42eb9904f66/Project%20Board%20Setup.png)
 
 **Documentation Updates:** Systematic updates to the README file have been completed at each phase, reflecting key decisions and progress.
 
@@ -133,8 +133,8 @@ List of tickets created are shown below
 
 **Iteration 2**
 
-[Iteration2 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/b15b7e7af4851d7c5e66dc7e0fb359698cb6c67d/Iteration2%20Ticket.png)
+[Iteration2 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/57f6f4af238aef1fe50b873a29edb42eb9904f66/Iteration2%20Ticket.png)
 
 **Iteration 3**
 
-[Iteration3 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/b15b7e7af4851d7c5e66dc7e0fb359698cb6c67d/Iteration3%20Ticket.png)
+[Iteration3 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/57f6f4af238aef1fe50b873a29edb42eb9904f66/Iteration3%20Ticket.png)
