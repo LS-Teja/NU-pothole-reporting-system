@@ -1,7 +1,7 @@
 # Pothole Reporting System
 
 ## Project Introduction 
-*(Ticket/ Issue: Maintain Notes (README.md) for Pothole Reporting System Proposal #1)*
+*(Ticket/ Issue: Maintain Notes (README.md) for Pothole Reporting System Proposal #1)* [Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/b15b7e7af4851d7c5e66dc7e0fb359698cb6c67d/Project%20Proposal%20Ticket.png)
 
 ### Overview
 The Pothole Reporting System is a web-based application designed to address one of the most common infrastructure issues faced by urban and rural areas: potholes. This system empowers citizens to report potholes with precise location data and images, ensuring timely responses by relevant authorities. Built using HTML, CSS, and JavaScript, the application emphasizes user-friendliness, accessibility, and data-driven decision-making for efficient road maintenance.
@@ -77,7 +77,7 @@ Notify users when their reported potholes are addressed.
 
 
 ## Project Planning and Design
-*(Ticket/ Issue - Design prototype using Figma and update README.md file #3)*
+*(Ticket/ Issue - Design prototype using Figma and update README.md file #3)* [Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/b15b7e7af4851d7c5e66dc7e0fb359698cb6c67d/Design%20Ticket.PNG)
 
 For the Pothole Reporting System project, I will employ Agile methodology with a Kanban workflow to ensure smooth execution and flexibility. This approach will allow the team to adapt to changes quickly and efficiently while maintaining focus on incremental progress.
 
@@ -108,3 +108,29 @@ The frames are connected using connectors to represent the sequence of actions: 
 View the wireframe and UI flow of the Pothole Reporting System on Figma:
 [Click here to view the design](https://www.figma.com/proto/9aW1XrUT6MXbFdRpmVzdeX/BCC---Pothole-Reporting-System?node-id=0-1&t=IUXVlI4jRLe8eQBa-1)
 
+### What have we done so far...
+Now that we have completed the setup, planning, and design phases, we have laid the groundwork for implementation to begin. These initial efforts have established a solid foundation, with the following tasks successfully completed:
+
+**Git Repository Setup:** A centralized Git repository has been initialized and configured to manage the project's source code and documentation. 
+[Project Repository creation](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/b15b7e7af4851d7c5e66dc7e0fb359698cb6c67d/Project%20Repository%20creation.png)
+
+**GitHub Project Board Creation:** A project board has been established to effectively organize, prioritize, and track tasks throughout the project's lifecycle.
+[Project Board setup](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/b15b7e7af4851d7c5e66dc7e0fb359698cb6c67d/Project%20Board%20Setup.png)
+
+**Documentation Updates:** Systematic updates to the README file have been completed at each phase, reflecting key decisions and progress.
+
+## Project Development Phase
+
+This phase will focus on implementing the backlog, streamlined into three iterations with one task assigned to each iteration, ordered by priority. Each iteration task is documented as a GitHub issue with clear descriptions and relevant screenshots to ensure simplicity, clarity, and alignment throughout the process.
+
+**Iteration 1**
+
+[Iteration1 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/b15b7e7af4851d7c5e66dc7e0fb359698cb6c67d/Iteration1%20Ticket.png)
+
+**Iteration 2**
+
+[Iteration2 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/b15b7e7af4851d7c5e66dc7e0fb359698cb6c67d/Iteration2%20Ticket.png)
+
+**Iteration 3**
+
+[Iteration3 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/b15b7e7af4851d7c5e66dc7e0fb359698cb6c67d/Iteration3%20Ticket.png)
