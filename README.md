@@ -129,7 +129,7 @@ List of tickets created are shown below
 
 **Iteration 1**
 
-[Iteration1 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/b15b7e7af4851d7c5e66dc7e0fb359698cb6c67d/Iteration1%20Ticket.png)
+[Iteration1 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/cc3f653636043fb60e544a3dcabe523ac2f30762/Iteration1%20Ticket.png)
 
 **Iteration 2**
 
