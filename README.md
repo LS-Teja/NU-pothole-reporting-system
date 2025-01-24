@@ -186,6 +186,8 @@ While TDD is typically adopted early in the project, implementing it at a later 
 
 This issue requires a thorough investigation into file handling and storage mechanisms, including assessing compatibility with various file types and sizes, so it has been parked for now.
 
+You can view the updated project board [here](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/1a091012b398053bc6415dd61f3bdd4df26dce45/ProjectBoardAtTheEnd.PNG)
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## User and Technical Documentation
 
