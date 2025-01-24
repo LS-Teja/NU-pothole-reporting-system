@@ -1,5 +1,5 @@
 # Pothole Reporting System
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Project Introduction 
 *(Ticket/ Issue: Maintain Notes (README.md) for Pothole Reporting System Proposal #1)* [Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/57f6f4af238aef1fe50b873a29edb42eb9904f66/Project%20Proposal%20Ticket.png)
 
@@ -75,6 +75,7 @@ Extend functionality to a mobile application for wider accessibility.
 - **Notification System:**
 Notify users when their reported potholes are addressed.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Project Planning and Design
 *(Ticket/ Issue - Design prototype using Figma and update README.md file #3)* [Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/b15b7e7af4851d7c5e66dc7e0fb359698cb6c67d/Design%20Ticket.PNG)
@@ -117,7 +118,9 @@ Now that we have completed the setup, planning, and design phases, we have laid 
 **GitHub Project Board Creation:** A project board has been established to effectively organize, prioritize, and track tasks throughout the project's lifecycle.
 [Project Board setup](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/57f6f4af238aef1fe50b873a29edb42eb9904f66/Project%20Board%20Setup.png)
 
-**Documentation Updates:** Systematic updates to the README file have been completed at each phase, reflecting key decisions and progress.
+**Documentation Updates:** Systematic updates to the README file have been completed at each phase, reflecting key decisions and progress. In Project Proposal ticket, README.md changes were committed via a Pull Request (PR) that was linked to an existing issue. Upon merging the PR, the issue was automatically closed, which is why there are minimal comments associated with it. In contrast, the Design ticket did not have the issue linked to the PR, leading to it progressing through various stages of the project board with corresponding comments reflecting updates and feedback throughout the process. This distinction explains the difference in visibility and the level of documentation within the tickets.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Project Development Phase
 
@@ -143,7 +146,7 @@ I committed changes to remote repository after testing it in local using the bel
 
 With this, I have developed a Minimum Viable Product (MVP) featuring the foundational structure of the web user interface. The live application has been successfully deployed on GitHub using the repository's Settings → Pages feature, with the deployment configured on the main branch. This serves as a basic, functional layout to serve as a starting point for further enhancements and feature integration.
 
-Live App deployment is shown [here](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/27f70c73a5bb94718b1d12c1b00ff68aeacaa893/live_URL.PNG)
+**Live App deployment** is shown [here](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/27f70c73a5bb94718b1d12c1b00ff68aeacaa893/live_URL.PNG)
 
 You can access Live App [here](https://ls-teja.github.io/NU-pothole-reporting-system/src/home.html)
 
@@ -159,6 +162,10 @@ In iteration 2, I implemented HTML form validation by adding the required attrib
 
 In iteration 3, I implemented JavaScript to handle the form submission process. When the user clicks the "Submit Report" button, the form prevents its default behavior, displays a success message ("Your report has been submitted successfully!"), and clears the form fields. The success message is set to disappear automatically after 5 seconds, providing clear confirmation of submission. This behavior ensures a smooth and user-friendly experience. Git Push was done to merge changes from local to remote.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Project Testing Phase
+
 **Enhancement Ticket involving Test Driven development**
 
 [Enhancement Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/c068fbcc5070433ef497141a3d214215f74b747c/TDD_enhancement.PNG)
@@ -173,8 +180,64 @@ Why TDD as an enhancement at a Later Stage?
 
 While TDD is typically adopted early in the project, implementing it at a later stage allows us to ensure that we thoroughly understand the application’s requirements first. By adding tests after the initial functionality is in place, we can identify critical areas that require testing and apply more focused test coverage. This phased approach also helps in improving code quality, maintaining stable progress, and preventing future bugs, especially as new features and updates are added.
 
-**Bug Ticket**
+**Bug Ticket** (This is an imaginary bug ticket introduced solely to showcase how bug tickets are documented and addressed. In reality, the web app has no problems with image loading or submission. This ticket demonstrates the distinction in tracking bugs compared to feature enhancements or resolved issues)
 
 [Bug Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/27f70c73a5bb94718b1d12c1b00ff68aeacaa893/Bug_ticket.PNG)
 
 This issue requires a thorough investigation into file handling and storage mechanisms, including assessing compatibility with various file types and sizes, so it has been parked for now.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## User and Technical Documentation
+
+### User Documentation:
+
+The Pothole Reporting System allows users to submit reports about potholes, including their location and description, with an optional photo upload. Users fill out the required fields—Location and Description—then click the "Submit Report" button to send their information. Upon successful submission, a confirmation message is displayed. Note that photo uploads may experience intermittent issues.
+
+### Technical Documentation:
+
+The system is built with HTML, CSS, and JavaScript. HTML provides the structure for the form where users enter the location, description, and upload a photo. CSS styles the form for a clean, responsive layout. JavaScript handles form validation, ensures required fields are filled, and displays a success message upon form submission. The app uses Jest for testing key features, including form submission and message display. Known limitations include the lack of GIS mapping for precise location marking, and intermittent issues with photo uploads that are being prioritized for resolution.
+
+### Contribution Guidelines
+We welcome contributions to improve this project. To contribute:
+
+1. Fork the repository.
+2. Create a feature branch:
+3. 
+   `git checkout -b feature/your-feature-name`
+   
+5. Commit your changes and push to your forked repository.
+6. Submit a pull request with a detailed description of your changes.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+### Contact
+For queries, suggestions, or feedback, feel free to reach out:
+
+**Email:** l.sreeyapureddy@northeastern.com
+
+**GitHub:** https://github.com/LS-Teja
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Evaluation Section
+
+**Testing & Validation:**
+The application has been tested thoroughly, using Jest for Test-Driven Development (TDD) to ensure the functionality of key features such as form submission and success message display. The validation tests confirm that required fields are correctly handled, and success messages appear as expected. Further testing is ongoing to ensure stability and performance.
+
+**User Feedback:**
+During Iteration 3 of the MVP, users have encountered issues with the image upload feature. Specifically, the file upload process intermittently fails, causing the system to freeze or not properly submit the image. This issue impacts the user experience and can lead to incomplete or inaccurate reports. The bug is being prioritized for resolution.
+
+**Performance:**
+The performance of the application is currently optimal. The interface loads quickly, and the form functions as expected. However, additional testing across various devices is necessary to ensure that it performs well on a wider range of screen sizes and browsers.
+
+**Known Issues & Limitations:**
+A major limitation is the inability to use GIS maps for users to pinpoint the exact location of potholes. This functionality will be important for future improvements. Additionally, the intermittent issue with image uploads needs to be addressed.
+
+**Future Enhancements:**
+Future plans include integrating GIS mapping to allow users to select exact locations, improving the image upload reliability, and refining the user interface for a more intuitive experience. These enhancements will address current limitations and further improve the system's usability.
+
+This evaluation highlights the progress made and areas that require attention for future development.
+
+
+
