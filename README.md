@@ -123,13 +123,23 @@ Now that we have completed the setup, planning, and design phases, we have laid 
 
 This phase will focus on implementing the backlog, streamlined into three iterations with one task assigned to each iteration, ordered by priority. Each iteration task is documented as a GitHub issue with clear descriptions and relevant screenshots to ensure simplicity, clarity, and alignment throughout the process.
 
-List of tickets created are shown below
+List of tickets created are shown below.
 
 [List of development tickets](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/69c5e588fea92852c0fa93eabe25eafedda3facc/Development%20-%20Tickets.PNG)
+
+I cloned the GitHub repository to Visual Studio Code using SSH to securely access and work on the project files. This allowed me to easily sync my local changes with the remote repository. Below are the commands issued to clone the GitHub repository.
+
+[Commands to clone](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/76b74e1f88f462c9f5d72329180664a855bd2acc/git_clone.PNG)
 
 **Iteration 1**
 
 [Iteration1 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/cc3f653636043fb60e544a3dcabe523ac2f30762/Iteration1%20Ticket.png)
+
+After cloning, I focused on implementing Ticket 1 task by creating basic HTML and CSS files. The HTML file includes a simple form with fields for location, description, and an optional photo upload. The CSS file defines styles for the form layout, including input fields, buttons, and responsive design adjustments for smaller screens. This phase lays the foundation for the user interface, without any form submission or validation functionality.
+
+I committed changes to remote repository after testing it in local using the below commands.
+
+[Commands to git push](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/76b74e1f88f462c9f5d72329180664a855bd2acc/git_push.PNG)
 
 **Iteration 2**
 
@@ -139,6 +149,8 @@ List of tickets created are shown below
 
 [Iteration3 Ticket](https://github.com/LS-Teja/NU-pothole-reporting-system/blob/57f6f4af238aef1fe50b873a29edb42eb9904f66/Iteration3%20Ticket.png)
 
-I cloned the GitHub repository to Visual Studio Code using SSH to securely access and work on the project files. This allowed me to easily sync my local changes with the remote repository. Below are the commands issued to clone the GitHub repository.
 
-![clone](git_clone.png)
+
+
+
+
